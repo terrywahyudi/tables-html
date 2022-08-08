@@ -1,0 +1,90 @@
+<html>
+    <title>Table html</title>
+    <body>
+        <style>
+            .content-table {
+                border-collapse: collapse;
+                margin: 25px;
+                font-size: 15x;
+                min-width: 230px;
+                border-radius: 5px 5px 5px 5px;
+                overflow: hidden;
+                box-shadow: 20px 20px 15px grey;
+            }
+            body {background-color: aliceblue;}
+
+            .content-table thead tr {
+                background-color:rgb(78, 98, 178);
+                color: white; 
+                text-align: left;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            
+            .content-table th, td {
+                padding: 12px 15px;
+                font-size: medium;
+            }
+
+            .content-table tbody tr {
+                border-bottom: 1px solid #cec8c8;
+
+            }
+
+            .content-table tbody tr:nth-of-type(even) {
+                background-color: rgb(224, 218, 218);
+            }
+
+            .content-table tbody tr:last-of-type {
+                border-bottom: 2px solid rgb(78, 98, 178);
+            }
+
+            .content-table tbody tr.active-row {
+                color: rgb(78, 98, 178);
+                font-weight:lighter;
+                
+            }
+
+        </style>
+        <table class="content-table">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nama Pantai</th>
+                    <th>lokasi Pantai</th>
+                    <th>Tingkat Kebersihan</th>
+                    <th>Link Tautan</th>
+                </tr>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Pantai Suwuk</td>
+                    <td>Kecamatan Puring, Kebumen</td>
+                    <td>Kurang Bersih</td>
+                    <td><a href="https://www.kebumenkab.go.id/index.php/web/potenda_detail/45/18">Klik Link Disini</a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Pantai Pecaron</td>
+                    <td>Kecamatan Ayah, Kebumen</td>
+                    <td>Cukup Bersih</td>
+                    <td><a href="https://www.pantainesia.com/pantai-pecaron">Klik Link Disini</a></td>
+                </tr>
+                <tr class="active-row">
+                    <td>3</td>
+                    <td>Pantai Menganti</td>
+                    <td>Kecamatan Ayah, Kebumen</td>
+                    <td>Bersih</td>
+                    <td><a href="https://regional.kompas.com/read/2022/05/25/060000178/pantai-menganti-di-kebumen-harga-tiket-rute-dan-keindahan">Klik Link Disini</a></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Logending</td>
+                    <td>Kecamatan Ayah, Kebumen</td>
+                    <td>Bersih</td>
+                    <td><a href="https://sikopat.kebumenkab.go.id/index.php/wisata/index/wisata/7d0665438e81d8eceb98c1e31fca80c1">Klik Link Disini</a></td>
+                </tr>
+            </tbody>
+            </thead>
+        </table>
+    </body>
+</html>
